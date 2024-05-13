@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/mainAnaEkran"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:icon="@drawable/homebtn"
+        android:title="home"
+        android:visibility="visible"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/mainSettings"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:icon="@drawable/settingsbtn"
+        android:title="settings"
+        android:visibility="visible"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/mainUser"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:icon="@drawable/personbtn"
+        android:title="User"
+        android:visibility="visible"
+        app:showAsAction="always" />
+</menu>
